@@ -1,0 +1,23 @@
+var output = [];
+
+function fibonacciGenerator(num1){
+
+if (num1 === 0) {
+output.push(0);
+} else if (num1 === 1) {
+          output.push(0);
+          output.push(1);
+          } else {output.push(0);
+                  output.push(1);
+                  for (var i = 0; i < num1; i++) {
+                  var position = output.length;
+                  console.log(position);
+                  var iteration = output[position-1] + output[position-2];
+                  output.push(iteration);
+          }
+          }
+console.log(output);
+}
+
+
+fibonacciGenerator(4);
