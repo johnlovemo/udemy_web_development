@@ -18,6 +18,4 @@ output.push(0);
           }
 console.log(output);
 }
-
-
-fibonacciGenerator(4);
+fibonacciGenerator(6);
